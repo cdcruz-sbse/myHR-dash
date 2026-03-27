@@ -60,14 +60,14 @@
   .top-tiles {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 14px;
-    margin-bottom: 16px;
+    gap: 12px;
+    margin-bottom: 14px;
   }
   .tile {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 18px;
+    padding: 14px;
     box-shadow: var(--shadow-sm);
     transition: box-shadow 0.2s ease, transform 0.2s ease;
     cursor: default;
@@ -77,27 +77,27 @@
     transform: translateY(-1px);
   }
   .tile-icon {
-    width: 36px; height: 36px;
-    border-radius: 8px;
+    width: 30px; height: 30px;
+    border-radius: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
-    margin-bottom: 12px;
+    font-size: 14px;
+    margin-bottom: 8px;
   }
   .tile-icon.pay { background: var(--accent-green-light); }
   .tile-icon.pto { background: var(--accent-blue-light); }
   .tile-label {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
     color: var(--text-tertiary);
     text-transform: uppercase;
     letter-spacing: 0.4px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
   }
   .tile-value {
     font-family: 'Fraunces', serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--text-primary);
     line-height: 1.2;
@@ -106,7 +106,7 @@
     letter-spacing: 2px;
   }
   .tile-sub {
-    font-size: 12px;
+    font-size: 11px;
     color: var(--text-tertiary);
     margin-top: 4px;
   }
@@ -118,7 +118,7 @@
     font-weight: 500;
     color: var(--accent-blue);
     cursor: pointer;
-    margin-top: 6px;
+    margin-top: 4px;
     background: none;
     border: none;
     font-family: inherit;
@@ -270,7 +270,6 @@
 <body>
 <div class="widget-container">
 
-
   <!-- Top Tiles: My Pay + My PTO -->
   <div class="top-tiles fade-in">
     <div class="tile">
@@ -299,7 +298,7 @@
     </div>
     <div class="rewards-body">
       <div class="rewards-greeting">
-        Welcome back, <strong>Alex</strong> — here's where you stand this month.
+        Welcome back, <strong>Nicole</strong> — here's where you stand this month.
       </div>
 
       <div class="reward-stat-row">
@@ -328,7 +327,7 @@
 
       <div class="rewards-cta">
         <p>Redeem your points for gift cards, donations, or company swag.</p>
-        <a class="claim-btn" href="https://app.gusto.com/rewards/redeem" target="_blank" rel="noopener">
+        <a class="claim-btn" href="https://app.guusto.com/login" target="_blank" rel="noopener">
           Claim Your Rewards
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
